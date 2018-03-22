@@ -13,17 +13,17 @@ s3_bucket: kesean-static-website
 
 # site: path-to-your-website
 
-# index_document: index.html
+index_document: index.html
 # error_document: error.html
 
 # max_age:
 #   "assets/*": 6000
 #   "*": 300
 
-# gzip:
-#   - .html
-#   - .css
-#   - .md
+gzip:
+  - .html
+  - .css
+  - .md
 # gzip_zopfli: true
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints

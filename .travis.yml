@@ -5,11 +5,3 @@ install: gem install jekyll -v 2.4.0 && gem install s3_website
 script: jekyll build
 after_success: s3_website push
 acl: public_read
-# deploy:
-#   provider: s3
-#   access_key_id: AKIAJRASKQHKESMYAZMA
-#   secret_access_key:
-#     secure: NLq/MffHaPiw4kjvMWZntPaDBYtfZPByfJ+qT4ERd+CWKo5B0c2Y1mOYCdZ8uKpMnEfPq3tQaVB3P0MDbhz/Ok3CUni9TaNRIuZ4twmdZfKnpXYOIcBvFKFufqUg2ilnJJWQ+w6ne91CXY6KSvfSQQIchzkM+YlyAUJ5QFMel7iRBGkJuXtPCnXUXQZWayVHv+Rd16OcN2X4BhK1/s20M/PixXbltf9AdiBfmOs0/YG1A1byNeSKjoZn4bx7lRwxIwB1Vws+65Wat8maq7EMFeNCQJmDmAK7pfq3RVpV7vkrcYsCQTMtslU8A3c3SUAdYFtbZOI4OtfxVEKa1fpptNqUhKkKcBdVPnrHL765vbBs9PEajjEL67zZTZXWknggq/OGh5+kXM2ei4ihqXT7zXE2JTGu82KLwBNrULGT1O/yP3uSJTF6Tf8F4sAIT2pe5PJZXrIZe8VQz5xxG85k3xGZQuHvXTLzqMacZqitKM+K1Flg3VRE9lYe1B97cHPYAe02ikH0itPVJXHBhLdbvlN6DDZMo/uM0EaZW1IfFJHLrCd9mnYpbUj8r6UA9FSn5pQBIoxdtdc3mX5m32PM6RaZj1O6Rh01MMqz0LBZAusWeWncQqmwF70JlUfxfu/3Mdl02s+9X0D8OntOfycZKH7PfIC32Px7UnDDQO/orEs=
-#   bucket: kesean-static-website
-#   skip_cleanup: true
-#   acl: public_read
