@@ -4,5 +4,4 @@ rvm:
 install: gem install jekyll -v 2.4.0 && gem install s3_website
 script: jekyll build
 after_success: s3_website push
-bucket: "www.keseanwilson.com"
 acl: public_read

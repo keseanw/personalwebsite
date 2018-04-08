@@ -5,6 +5,9 @@ s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: www.keseanwilson.com
 
+s3_endpoint: us-east-1
+s3_reduced_redundancy: true
+
 # set session_token if using temporary credentials with a session token (eg: when assuming a role)
 # session_token: YOUR_AWS_S3_SESSION_TOKEN
 
@@ -13,7 +16,7 @@ s3_bucket: www.keseanwilson.com
 
 # site: path-to-your-website
 
-index_document: index.html
+# index_document: index.html
 # error_document: error.html
 
 # max_age:
