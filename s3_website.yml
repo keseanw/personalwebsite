@@ -21,7 +21,7 @@ index_document: index.html
 # max_age:
 #   "assets/*": 6000
 #   "*": 300
-# gzip: true
+gzip: true
 
 gzip:
   - .html
