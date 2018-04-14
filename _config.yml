@@ -25,9 +25,6 @@ github: https://github.com/keseanw/
 linkedIn: https://www.linkedin.com/in/kesean-wilson
 resume: https://resume.creddle.io/resume/dqr8m15v4oh
 
-srcset:
-  cache: "/tmp/images"
-
 # Build settings
 markdown: kramdown
 theme: minima
