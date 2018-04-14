@@ -3,7 +3,7 @@
 # ~/.aws/credentials.
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
-s3_bucket: kesean-static-website
+s3_bucket: www.keseanwilson.com
 
 # s3_endpoint: us-east-1
 
