@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .env
+
+# Bundler config
+.bundle
+
+# Local dependencies
+/vendor
