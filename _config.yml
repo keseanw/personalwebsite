@@ -25,6 +25,8 @@ resume: https://resume.creddle.io/resume/dqr8m15v4oh
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 theme: minima
 plugins:
   - jekyll-feed
